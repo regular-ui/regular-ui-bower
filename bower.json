@@ -1,0 +1,22 @@
+{
+    "name": "regular-ui",
+    "description": "Regular UI is a set of front-end components built with RegularJS and MCSS.",
+    "author": "Sensen <rainforest92@126.com>",
+    "homepage": "https://github.com/rainfore/regular-ui",
+    "license": "MIT",
+    "keywords": ["regular", "ui"],
+    "main": [
+        "js/regular-ui.min.js",
+        "css/regular-ui.default.min.css",
+        "font/fontawesome-webfont.eot",
+        "font/fontawesome-webfont.svg",
+        "font/fontawesome-webfont.ttf"
+    ],
+    "ignore": [
+        "**/.*"
+    ],
+    "dependencies": {
+        "regularjs": "^0.3.1",
+        "marked": "^0.3.3",
+    }
+}
