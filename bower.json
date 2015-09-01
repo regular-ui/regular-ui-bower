@@ -1,8 +1,8 @@
 {
     "name": "regular-ui",
-    "description": "Regular UI is a set of front-end components built with RegularJS and MCSS.",
+    "description": "Regular UI is a set of front-end components built with RegularJS.",
     "author": "Sensen <rainforest92@126.com>",
-    "homepage": "https://github.com/rainfore/regular-ui",
+    "homepage": "http://regular-ui.github.io",
     "license": "MIT",
     "keywords": ["regular", "ui"],
     "main": [
