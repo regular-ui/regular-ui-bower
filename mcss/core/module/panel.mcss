@@ -21,16 +21,14 @@
 // Color Extends:
 // ========================================================================
 
-$m-panel-extend_color = ($name, $background, $color, $border) {
+$m-panel-extend_color = ($name, $background, $color = null, $border_ = null) {
+    .m-panel-#{$name} {
+        @if($border_) {border-color: $border_;}
 
-.m-panel-#{$name} {
-    @if($border) {border-color: $border;}
-
-    .panel_hd {
-        background: $background;
-        @if($color) {color: $color;}
-        @if($border) {border-color: $border;}
+        .panel_hd {
+            background: $background;
+            @if($color) {color: $color;}
+            @if($border_) {border-color: $border_;}
+        }
     }
-}
-
 }
