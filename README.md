@@ -25,11 +25,10 @@ I'm lazy to translate...
 ```
 regular-ui-bower
 |— css                    # css文件
-|— font                   # 字体，Regular UI使用FontAwesome
+|— fonts                  # 字体，Regular UI使用FontAwesome
 |— js                     # js文件，整合的单入口文件
-|— js-amd                 # amd规范的多入口文件
-|— js-common              # commonJS规范的多入口文件
 |— mcss                   # mcss文件
+|— scss                   # scss文件
 |— vendor                 # 第三方库
 |-- bower.json             # bower配置文件
 |-- README.md              # 说明文件
