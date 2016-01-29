@@ -1,21 +1,17 @@
-// Name:            Input2
-// Description:     输入扩展
+// Name:            Textarea2
+// Description:     多行输入扩展
 // Author:          sensen(rainforest92@126.com)
 // ========================================================================
 
-@import "../../core/unit/input2.scss";
+@import "../../core/unit/textarea2.mcss";
 
-// Component:       `u-input2`
+// Component:       `u-textarea2`
 // ========================================================================
 
-.u-input2 {
-    .input2_placeholder {   
+.u-textarea2 {
+    .textarea2_placeholder {
         color: $u-formctrl_placeholder_color;
         padding: $u-formctrl_padding;
         border-left: 1px solid transparent;
     }
-}
-
-.u-input2 + .u-tip {
-    margin-left: 5px;
 }
